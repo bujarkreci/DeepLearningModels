@@ -4,7 +4,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>efbaf963-f444-4856-b29e-87c185a8991b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>DeepLearningModels.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +22,43 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="DeepLearningModels.py" />
+    <Compile Include="2_1_Covariance_Example.py" />
+    <Compile Include="CalculusExamples\AutomaticDifferentiation.py" />
+    <Compile Include="CalculusExamples\AutoPropagationTensorflow.py" />
+    <Compile Include="CalculusExamples\backpropagation.py" />
+    <Compile Include="CalculusExamples\Derivatives.py" />
+    <Compile Include="CalculusExamples\GraphicDerivatives.py" />
+    <Compile Include="CalculusExamples\graphTensorGradient.py" />
+    <Compile Include="CalculusExamples\JacobianRule.py" />
+    <Compile Include="CalculusExamples\JacobianRuleClass.py" />
+    <Compile Include="CalculusExamples\JacobianRuleSympy.py" />
+    <Compile Include="CalculusExamples\MatrixGradientJacobian.py" />
+    <Compile Include="CalculusExamples\numpyMatrixExample.py" />
+    <Compile Include="CalculusExamples\TensorFlowGradient.py" />
+    <Compile Include="CalculusExamples\TensorGradient.py" />
+    <Compile Include="CalculusExamples\TensorMultipleFunc.py" />
+    <Compile Include="CalculusExamples\test %282%29.py" />
+    <Compile Include="CalculusExamples\test.py" />
+    <Compile Include="CalculusExamples\VectorCalc.py" />
+    <Compile Include="Diabetes\MultilayerPerceptron.py" />
+    <Compile Include="Diabetes\test.py" />
+    <Compile Include="Diabetes\testDirectory.py" />
+    <Compile Include="model1.py" />
+    <Compile Include="ReferencedModels\1_IMBDdataset_binaryClassif.py" />
+    <Compile Include="ReferencedModels\2_Reuters_News.py" />
+    <Compile Include="ReferencedModels\3_RegressionExample.py" />
+    <Compile Include="TensorBoard\TensorboardExample.py" />
+    <Compile Include="TensorBoard\testReutersTensorboard.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CalculusExamples\" />
+    <Folder Include="Diabetes\" />
+    <Folder Include="ReferencedModels\" />
+    <Folder Include="TensorBoard\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Diabetes\pima-indians-diabetes.csv" />
+    <Content Include="Diabetes\pima-indians-diabetes.names.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
